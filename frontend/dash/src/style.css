@@ -1,3 +1,9 @@
 :root {
-  background-color: beige;
+
+  --background-color: #F7EDEA;
+  --container-color: #F5F2F1;
+  --text-color: #4A6670;
+  --button-color: #CC5803;
+
+  background-color: var(--background-color);
 }
