@@ -6,4 +6,6 @@
   --button-color: #CC5803;
 
   background-color: var(--background-color);
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
