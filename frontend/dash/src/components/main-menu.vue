@@ -12,28 +12,30 @@ import searchIcon from '../assets/searchicon.png'
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .header-left {
     color: var(--text-color);
     font-weight: bold;
     font-size: 2rem;
-    padding: 0 10px;
+    padding: 0 5rem;
   }
 
-  .search-input {
-    width: 19rem;
-    height: 2rem;
-    outline: none;
-    border: none;
-    border-radius: 0.2rem;
-    padding: 0.2rem 0.5rem;
-  }
+
   .search {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  .search-input {
+    width: 22rem;
+    height: 2rem;
+    outline: 2px solid var(--text-color);
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
   }
 
   .search-icon {
