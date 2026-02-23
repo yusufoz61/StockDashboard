@@ -8,6 +8,11 @@ import searchIcon from '../assets/searchicon.png'
   body{
     margin: 0;
   }
+  article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .header {
     display: flex;
     justify-content: center;
@@ -45,22 +50,50 @@ import searchIcon from '../assets/searchicon.png'
     cursor: pointer;
   }
 
+  .container {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: 35rem;
+
+
+  }
+  .watchlist {
+    display: flex;
+    background-color: #CC5803;
+    width: 50%;
+  }
+
 </style>
 
 
 <template>
   <body>
-<div class="header">
-  <div class="header-left">
-    <p>Stock Creeper</p>
-  </div>
-  <div class="header-right">
-    <div class="search">
-      <img :src="searchIcon" alt="search icon" class="search-icon" />
-      <input class="search-input" type="text" placeholder="Search Stock" />
+  <header>
+    <div class="header">
+      <div class="header-left">
+        <p>Stock Creeper</p>
+      </div>
+      <div class="header-right">
+        <div class="search">
+          <img :src="searchIcon" alt="search icon" class="search-icon" />
+          <input class="search-input" type="text" placeholder="Search Stock" />
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </header>
+    <article>
+      <div class="container">
+        <div class="watchlist">
+          <h1>Watchlist</h1>
+        </div>
+        <div class="detail">
+          <h1>Details</h1>
+        </div>
+      </div>
+    </article>
   </body>
 </template>
 
