@@ -1,0 +1,43 @@
+
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "currency": "USD",
+    "price": 189.12,
+    "changeAmount": -1.34,
+    "changePercent": -0.70,
+    "dayHigh": 191.02,
+    "dayLow": 188.60,
+    "yearHigh": 199.62,
+    "yearLow": 164.08,
+    "asOf": "2026-02-23T10:12:00Z"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corporation",
+    "currency": "USD",
+    "price": 410.55,
+    "changeAmount": 2.10,
+    "changePercent": 0.51,
+    "dayHigh": 412.00,
+    "dayLow": 407.30,
+    "yearHigh": 420.00,
+    "yearLow": 309.00,
+    "asOf": "2026-02-23T10:12:00Z"
+  },
+  {
+    "ticker": "ASML",
+    "name": "ASML Holding N.V.",
+    "currency": "EUR",
+    "price": 720.50,
+    "changeAmount": 8.40,
+    "changePercent": 1.18,
+    "dayHigh": 725.00,
+    "dayLow": 710.20,
+    "yearHigh": 780.00,
+    "yearLow": 540.00,
+    "asOf": "2026-02-23T10:12:00Z"
+
+  }
+]
