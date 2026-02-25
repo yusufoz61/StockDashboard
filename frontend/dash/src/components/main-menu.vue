@@ -13,6 +13,7 @@ import searchIcon from '../assets/searchicon.png'
     align-items: center;
     justify-content: center;
   }
+
   .header {
     display: flex;
     justify-content: center;
@@ -56,7 +57,6 @@ import searchIcon from '../assets/searchicon.png'
     justify-content: space-around;
     width: 80%;
     height: 35rem;
-
 
   }
   .watchlist, .detail {
