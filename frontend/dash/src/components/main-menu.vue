@@ -21,7 +21,7 @@ import searchIcon from '../assets/searchicon.png'
   }
 
   .header-left {
-    color: var(--text-color);
+    color: var(--text);
     font-weight: bold;
     font-size: 2rem;
     padding: 0 5rem;
@@ -37,7 +37,7 @@ import searchIcon from '../assets/searchicon.png'
   .search-input {
     width: 22rem;
     height: 2rem;
-    outline: 2px solid var(--text-color);
+    box-shadow: var(--box-shadow);
     border: none;
     border-radius: 0.2rem;
     padding: 0.2rem 0.5rem;
@@ -51,7 +51,6 @@ import searchIcon from '../assets/searchicon.png'
   }
 
   .container {
-    background-color: blue;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -60,10 +59,15 @@ import searchIcon from '../assets/searchicon.png'
 
 
   }
-  .watchlist {
+  .watchlist, .detail {
     display: flex;
-    background-color: #CC5803;
-    width: 50%;
+    justify-content: center;
+    border-radius: 0.6rem;
+    width: 40%;
+    padding: 0 1rem;
+    background-color: var(--bg);
+    border-top: 2px solid var(--highlight);
+    box-shadow: var(--box-shadow);
   }
 
 </style>

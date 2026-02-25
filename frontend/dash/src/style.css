@@ -1,11 +1,25 @@
 :root {
 
-  --background-color: #FFFFFF;
-  --container-color: #F5F2F1;
-  --text-color: #4A6670;
-  --button-color: #CC5803;
+    --bg-dark: oklch(0.92 0 20);
+    --bg: oklch(0.96 0 20);
+    --bg-light: oklch(1 0 20);
+    --text: oklch(0.15 0 20);
+    --text-muted: oklch(0.4 0 20);
+    --highlight: oklch(1 0 20);
+    --border: oklch(0.6 0 20);
+    --border-muted: oklch(0.7 0 20);
+    --primary: oklch(0.4 0.1 20);
+    --secondary: oklch(0.4 0.1 200);
+    --danger: oklch(0.5 0.05 30);
+    --warning: oklch(0.5 0.05 100);
+    --success: oklch(0.5 0.05 160);
+    --info: oklch(0.5 0.05 260);
+    --box-shadow: 0.2rem 0.2rem 0.2rem var(--bg-dark);
 
-  background-color: var(--background-color);
+  background-color: var(--bg-dark);
   font-family: sans-serif;
   box-sizing: border-box;
+
+
+
 }
